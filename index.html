@@ -72,6 +72,7 @@
             <p class="colorText">{{address}}<p>
             <p class="colorText">{{city}}{{#state}}, {{state}}{{/state}}{{#postcode}}, {{postcode}}{{/postcode}}</p>
             <ul>
+                <li><span class="category">Network Name:</span> {{networkname}}</li>
                 <li><span class="category">Wifi:</span> {{wifipassword}}</li>
                 <li><span class="category">Outlets:</span> {{outlets}}</li>
                 <li><span class="category">Couch:</span> {{couch}}</li>
@@ -115,7 +116,7 @@
     <script type="text/javascript">
         document.addEventListener('DOMContentLoaded', function() {
             var gData
-            var URL = "1hnfQcggYcBYimuO_UOMvwoOi_I9vUvFpkMt4wjrrpLE"
+            var URL = "1n8NNh5uTelXjjr-LV9Dre6BeHH7lHbigdBNhyiG4st8"
                 Tabletop.init({ key: URL, callback: showInfo, simpleSheet: true })
         })
 
